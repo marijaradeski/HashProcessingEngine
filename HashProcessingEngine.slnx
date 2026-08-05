@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HashProcessingEngine.Api/HashProcessingEngine.Api.csproj" />
+    <Project Path="src/HashProcessingEngine.Application/HashProcessingEngine.Application.csproj" />
+    <Project Path="src/HashProcessingEngine.Domain/HashProcessingEngine.Domain.csproj" />
+    <Project Path="src/HashProcessingEngine.Infrastructure/HashProcessingEngine.Infrastructure.csproj" />
+    <Project Path="src/HashProcessingEngine.Worker/HashProcessingEngine.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HashProcessingEngine.Tests/HashProcessingEngine.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-HashProcessingEngine.Worker-fe1f7b26-60f7-4599-8741-9f993a1d3b00</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HashProcessingEngine.Application\HashProcessingEngine.Application.csproj" />
+    <ProjectReference Include="..\HashProcessingEngine.Infrastructure\HashProcessingEngine.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
