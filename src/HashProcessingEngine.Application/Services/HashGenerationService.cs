@@ -27,7 +27,7 @@ public class HashGenerationService : IHashProcessingService
 
     public async Task<GenerateHashesResponse> GenerateAsync(GenerateHashesRequest request, CancellationToken cancellationToken)
     {
-        var count = request.Count ?? _options.DefaultCount;
+        var count = request.Count;
 
         if (count > _options.MaximumCount)
         {

@@ -6,5 +6,5 @@ public class GenerateHashesRequest
 {
     [Range(1, 60000, ErrorMessage = "Count must be between 1 and 60000.")]
     [DefaultValue(40000)]
-    public int? Count { get; set; } = 40000;
+    public int Count { get; set; } = 40000;
 }
