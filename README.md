@@ -92,44 +92,7 @@ Responsibilities:
 - Process hash messages.
 - Store processed hashes into MariaDB.
 - Run independently from the API.
-
----
-
-Solution Structure
-
-```text
-HashProcessingEngine
-
-├── src
-│
-├── HashProcessingEngine.Api
-│   ├── Controllers
-│   ├── Middleware
-│   ├── Exception Handling
-│   └── Swagger/OpenAPI
-│
-├── HashProcessingEngine.Worker
-│   └── RabbitMQ Consumer
-│
-├── HashProcessingEngine.Application
-│   ├── Services
-│   ├── Interfaces
-│   ├── DTOs
-│   └── Options
-│
-├── HashProcessingEngine.Infrastructure
-│   ├── RabbitMQ
-│   ├── Persistence
-│   └── Database Access
-│
-├── HashProcessingEngine.Domain
-│   └── Entities
-│
-└── tests
-    └── HashProcessingEngine.Tests
-```
-
----
+- 
 
 Processing Workflow
 
